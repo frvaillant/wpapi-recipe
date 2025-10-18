@@ -1,2 +1,2 @@
 wordpress_api:
-  base_url: 'http://localhost:8000'
+  base_url: '%env(WORDPRESS_API_BASE_URL)%'
