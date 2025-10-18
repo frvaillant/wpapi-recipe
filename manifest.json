@@ -1,8 +1,6 @@
 {
   "bundles": {
-    "Francoisvaillant\\WordpressApiBundle\\WordpressApiBundle": [
-      "all"
-    ]
+    "Francoisvaillant\\WordpressApiBundle\\WordpressApiBundle": ["all"]
   },
   "copy-from-recipe": {
     "config/": "%CONFIG_DIR%/"
