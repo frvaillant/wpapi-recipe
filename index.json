@@ -1,6 +1,6 @@
 {
   "recipes": {
-    "frvaillant/wordpress-api-bundle": [
+    "francoisvaillant/wordpress-api-bundle": [
       "1.0"
     ]
   },
