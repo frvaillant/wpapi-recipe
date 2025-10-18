@@ -1,12 +1,13 @@
 {
-  "manifest_version": 1,
-  "bundles": {
-    "Francoisvaillant\\WordpressApiBundle\\WordpressApiBundle": ["all"]
-  },
-  "copy-from-recipe": {
-    "config/": "config/"
-  },
-  "env": {
-    "WORDPRESS_API_BASE_URL": "http://localhost:8000"
+  "manifest": {
+    "bundles": {
+      "Francoisvaillant\\WordpressApiBundle\\WordpressApiBundle": ["all"]
+    },
+    "copy-from-recipe": {
+      "config/": "%CONFIG_DIR%/"
+    },
+    "env": {
+      "WORDPRESS_API_BASE_URL": "http://localhost:8000"
+    }
   }
 }
