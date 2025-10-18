@@ -1,2 +1,2 @@
 wordpress_api:
-  base_url: 'http://localhost:8888'
+  base_url: 'http://localhost:8000'
