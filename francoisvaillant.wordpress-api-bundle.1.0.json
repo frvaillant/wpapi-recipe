@@ -1,16 +1,18 @@
 {
-  "bundles": {
-    "Francoisvaillant\\WordpressApiBundle\\WordpressApiBundle": ["all"]
-  },
-  "copy-from-recipe": {
-    "config/": "%CONFIG_DIR%/"
-  },
-  "env": {
-    "WORDPRESS_API_BASE_URL": "http://localhost:8000"
-  },
-  "dotenv": {
-    "local": {
+  "manifest": {
+    "bundles": {
+      "Francoisvaillant\\WordpressApiBundle\\WordpressApiBundle": ["all"]
+    },
+    "copy-from-recipe": {
+      "config/": "%CONFIG_DIR%/"
+    },
+    "env": {
       "WORDPRESS_API_BASE_URL": "http://localhost:8000"
+    },
+    "dotenv": {
+      "local": {
+        "WORDPRESS_API_BASE_URL": "http://localhost:8000"
+      }
     }
   }
 }
