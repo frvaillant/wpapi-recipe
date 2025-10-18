@@ -13,7 +13,8 @@
         "env": {
           "WORDPRESS_API_BASE_URL": "http://localhost:8000"
         }
-      }
+      },
+      "ref": "2b6d2b75b25541690fe3ad37752c2cb6edee3e4b"
     }
   }
 }
