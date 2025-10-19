@@ -1,6 +1,6 @@
 {
   "recipes": {
-    "francoisvaillant/wordpress-api-bundle": ["1.0"]
+    "francoisvaillant/wordpress-api-bundle": ["1.0", "*"]
   },
   "branch": "main",
   "is_contrib": true,
