@@ -10,6 +10,16 @@
         "copy-from-recipe": {
           "config/": "%CONFIG_DIR%"
         },
+        "files": {
+          "config/packages/wordpress_api.yaml": {
+            "contents": [
+              "wordpress_api:",
+              "    base_url: '%env(WORDPRESS_API_BASE_URL)%'",
+              ""
+            ],
+            "executable": false
+          }
+        },
         "env": {
           "WORDPRESS_API_BASE_URL": "http://localhost:8000"
         }
