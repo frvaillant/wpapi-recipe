@@ -1,2 +1,0 @@
-wordpress_api:
-  base_url: '%env(WORDPRESS_API_BASE_URL)%'
